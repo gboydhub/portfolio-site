@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Gary Boyd's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=B612|Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="nav-container">
+        <div id="top-nav">
+          <div class="nav-link" name="home">Home</div>
+          <div class="nav-link" name="portfolio">Portfolio</div>
+          <div class="nav-link" name="resume">Resume</div>
+        </div>
+      </div>
+      <div id="content">
+        <% if defined? error_message %>
+          <div class="error-div">
+            <h3>Uh-oh!</h3>
+            <p><%= error_message %></p>
+          </div>
+        <% else %>
+          <%=yield%>
+        <% end %>
+      </div>
+    </div>
+  </body>
+  <script src="/js/scripts.js"></script>
+</html>
