@@ -58,14 +58,19 @@ ul {
 
 .story {
   width: 90%;
+  font-size: medium;
 }
 
 .story p {
   text-indent: 20px;
   font-size: small;
-  padding:5px;
+  padding: 5px;
 }
 
+.sub-heading {
+  font-size: medium !important;
+  margin: 0;
+}
 .story-head {
   border-bottom-style: solid;
   font-weight: bold;
