@@ -98,6 +98,11 @@ ul {
   justify-content: center;
 }
 
+#my-pic {
+  border-radius: 5px;
+  box-shadow: -3px 3px 2px rgba(0,0,0,0.2);
+}
+
 .nav-container {
   display:flex;
   border-radius: 4px;
@@ -123,9 +128,21 @@ ul {
 
 .nav-link:hover {
   background-color: var(--dark-peach);
+  color: var(--dark-green)
 }
 
 a {
   color: var(--light-peach);
   text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--light-gray);
+}
+
+.icon-img {
+  width: 28px;
+  height: 28px;
+  margin-left: 5px;
 }
