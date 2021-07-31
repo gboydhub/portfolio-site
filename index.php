@@ -17,14 +17,18 @@
         </div>
       </div>
       <div id="content">
-        <% if defined? error_message %>
-          <div class="error-div">
-            <h3>Uh-oh!</h3>
-            <p><%= error_message %></p>
-          </div>
-        <% else %>
-          <%=yield%>
-        <% end %>
+        <?php
+          $PAGE = "main";
+          if(isset($_GET['page'])) {
+            $PAGE = htmlspecialchars($_GET['page']);
+          }
+          if(file_exists($PAGE . ".php")) {
+            readfile($PAGE . ".php");
+          }
+          else {
+            readfile("main.php");
+          }
+        ?>
       </div>
     </div>
   </body>

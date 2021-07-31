@@ -14,11 +14,17 @@ Technical Skillsets
 Adaptable Skills
 <ul>
   <li>PHP, Python</li>
-  <li>C++, C#, Java</li>
+  <li>C++, C#, Java, Go</li>
+</ul>
+Modern Game Engines
+<ul>
+  <li>Unity</li>
+  <li>Godot</li>
+  <li>Game Maker Studio 2</li>
 </ul>
 
 <p>I am also always open to improving myself or learning something new!<br>
-If you want to check out a mini-bio on myself you can keep reading. You could also check out my <a href="/portfolio">portfolio</a> or <a href="/resume">resume</a>.</p>
+If you want to check out a mini-bio on myself you can keep reading. You could also check out my <a href="?page=resume">resume</a> or <a href="?page=portfolio">portfolio</a>.</p>
 
 <div class="story"><div class="story-head">Origin Story</div>
 <p>I was born in a very rural town in the valleys of the appalachian mountains in West Virginia. In general the population is reserved and resistant to change.
@@ -52,9 +58,9 @@ A few months later I had my first actual job as a contracted programmer!</p>
 
 <div class="story-head">Post Mortem</div>
 <p>I worked with Mined Minds for about half a year. They ended up closing shop and releasing all of the students they had brought into contract work. 
-Things were kind of strangely handled at the end and there ended up being a <a hreaf="https://www.nytimes.com/2019/05/12/us/mined-minds-west-virginia-coding.html">New York Times article</a>
+Things were kind of strangely handled at the end and there ended up being a <a href="https://www.nytimes.com/2019/05/12/us/mined-minds-west-virginia-coding.html">New York Times article</a>
 exposing some shadier points of view of the company, but my experience was overall positive. Even got to visit cuba with the upper level staff!</p>
-<p>Around the time I was let go my father got sick and went back to my previous job for stability. Somehow nearly 2 years has gone by since my dad passed away that year.
+<p>Around the time I was let go my father got sick and i went back to my previous job for stability. Somehow nearly 2 years has gone by since my dad passed away that year.
  Ive recently decided to get back to what I want to do and have been working on projects and reaching out to contacts.</p>
 
 <div class="story-head">Unwritten Chapters</div>
