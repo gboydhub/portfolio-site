@@ -11,9 +11,9 @@
   </ul>
 </div>
 
-<div class="story solid-border-btm"><div class="story-head"><a href="https://gb-ttt.herokuapp.com/">Something in a compilable language</a></div>
+<div class="story solid-border-btm"><div class="story-head"><a href="https://gb-ttt.herokuapp.com/">Idle Dealer Tycoon</a></div>
   <div class="pic-area"><img src="http://placekitten.com/300/190"></div>
-  <p>C++/Java/Something <a href="https://github.com/gboydhub/tictactoe"><img src="/img/github.png" class="icon-img"></a></p>
+  <p>Android game! (TBD Release)</p>
   Features
   <ul>
     <li>Things</li>
@@ -22,13 +22,13 @@
 
 <div class="story solid-border-btm"><div class="story-head"><a href="https://gb-ttt.herokuapp.com/">Maybe lambda</a></div>
   <div class="pic-area"><img src="http://placekitten.com/296/192"></div>
-  <p>Node stuff <a href="https://github.com/gboydhub/tictactoe"><img src="/img/github.png" class="icon-img"></a></p>
+  <p>Small Go/C#/Java project<a href="https://github.com/gboydhub/tictactoe"><img src="/img/github.png" class="icon-img"></a></p>
   Features
   <ul>
-    <li>Things</li>
+    <li>Doesnt exist yet!</li>
   </ul>
 </div>
 
 <div class="story solid-border-btm"><div class="story-head"><a href="https://github.com/gboydhub">My GitHub</a></div>
-  <p>You can find the code for this website, the projects above, or any number of experiments here.</p>
+  <p>You can find the code for this website, the projects above, or any number of experiments here. <a href="https://github.com/gboydhub"><img src="/img/github.png" class="icon-img"></a></p>
 </div>
