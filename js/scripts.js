@@ -8,3 +8,7 @@ Array.from(navLinks).forEach(function(link) {
     window.location.href = loc;
   });
 });
+
+var opts = ["Software Developer", "Programmer", "Game Dev"];
+var desc = "Gary Boyd, " + opts[Math.floor(Math.random() * 3)];
+document.getElementById("descriptor").innerHTML = desc;

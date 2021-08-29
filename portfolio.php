@@ -11,12 +11,14 @@
   </ul>
 </div>
 
-<div class="story solid-border-btm"><div class="story-head"><a href="https://gb-ttt.herokuapp.com/">Idle Dealer Tycoon</a></div>
-  <div class="pic-area"><img src="http://placekitten.com/300/190"></div>
-  <p>Android game! (TBD Release)</p>
+<div class="story solid-border-btm"><div class="story-head"><a href="https://eponick.itch.io/find-yer-treasure">Find Yer Treasure!</a></div>
+  <div class="pic-area"><img src="/img/fyt.png"></div>
+  <p>A Game I made for the 2014 7Day Roguelike Challenge</p>
   Features
   <ul>
-    <li>Things</li>
+    <li>Arcade Style Roguelike</li>
+    <li>Made in 7 days using C++ and Allegro</li>
+    <li>Be a pirate crashed on an island!</li>
   </ul>
 </div>
 

@@ -1,3 +1,15 @@
+<?php  //-- HTTPS Redirect
+  if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || 
+    $_SERVER['HTTPS'] == 1) || isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&   
+    $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https'))
+  {
+    $redirect = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: ' . $redirect);
+    exit();
+  }
+?>
+
 <html>
   <head>
     <title>Gary Boyd's Portfolio</title>
@@ -6,7 +18,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   </head>
   <body>
-    <center><font style="font-size:xx-large;">Gary Boyd, Software Developer</font></center>
+    <center><font style="font-size:xx-large;"><p id="descriptor">Gary Boyd, Human</p></font></center>
     <div id="wrapper">
       <div class="nav-container">
         <div id="top-nav">
