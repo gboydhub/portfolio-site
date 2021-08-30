@@ -1,6 +1,26 @@
+<div class="story solid-border-btm"><div class="story-head"><a href="https://www.moddb.com/games/xira-genesis">Xira Genesis</a></div>
+  <div class="pic-area"><a href=/img/xiragen.png><img src="/img/xiragen.png" width=340 height=220></a></div>
+  <p><a href="https://github.com/gboydhub/XiraGenesis"><img src="/img/github.png" class="icon-img"></a>Was planned to be a 2D renovation of the old MUD MORPGs. Planned to have every server be a different MUD experience based on that servers communities and goals.</p>
+  Features
+  <ul>
+    <li>Fully customizable server worlds</li>
+    <li>Expansive class system</li>
+    <li>World grows over time</li>
+    <li>Old school SNES FF style side Battle/party system</li>
+    <li>Project was worked on from 2012-2013, unfinished</li>
+    <li>Lots of time still went into this project, and is a good show of work</li>
+  </ul>
+  Implemented Features
+  <ul>
+    <li>Servers, Clients, Accounts, Asyncronous connections</li>
+    <li>Basic world building system, powers, and commands</li>
+    <li>Base of the battle, inventory, and skill systems</li>
+    <li>Item crafting and party support</li>
+</div>
+
 <div class="story solid-border-btm"><div class="story-head"><a href="https://gb-ttt.herokuapp.com/">Pirates vs Ninjas</a></div>
   <div class="pic-area"><img src="/img/ttt_img.png"></div>
-  <p>Browser based TicTacToe. <a href="https://github.com/gboydhub/tictactoe"><img src="/img/github.png" class="icon-img"></a></p>
+  <p><a href="https://github.com/gboydhub/tictactoe"><img src="/img/github.png" class="icon-img"></a>Browser based TicTacToe.</p>
   Features
   <ul>
     <li>1 or 2 players</li>
@@ -19,15 +39,7 @@
     <li>Arcade Style Roguelike</li>
     <li>Made in 7 days using C++ and Allegro</li>
     <li>Be a pirate crashed on an island!</li>
-  </ul>
-</div>
-
-<div class="story solid-border-btm"><div class="story-head"><a href="https://gb-ttt.herokuapp.com/">Maybe lambda</a></div>
-  <div class="pic-area"><img src="http://placekitten.com/296/192"></div>
-  <p>Small Go/C#/Java project<a href="https://github.com/gboydhub/tictactoe"><img src="/img/github.png" class="icon-img"></a></p>
-  Features
-  <ul>
-    <li>Doesnt exist yet!</li>
+    <li>Sorry! Ive lost the source code but it is a finished game.</li>
   </ul>
 </div>
 
