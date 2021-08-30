@@ -23,10 +23,13 @@ div {
   box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
+.underlined-box {
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
 #top-nav {
   width: 80%;
-  border-bottom-style: solid;
-  border-width: thin;
   display:inline-flex;
   padding-bottom: 5px;
 }
@@ -76,7 +79,7 @@ ul {
   font-weight: bold;
   border-bottom-width: thin;
   font-size: medium;
-  width: fit-content;
+  width: initial;
   margin-top: 15px;
 }
 
@@ -102,6 +105,25 @@ ul {
   display: inline-flex;
   justify-content: center;
 }
+.contact-div {
+  width: 80%;
+  height: 4rem;
+  text-align: left;
+  padding-top: 2rem;
+  flex-direction:row;
+  display: inline-flex;
+  font-size: large;
+  justify-content: center;
+}
+
+.contact-div img {
+  width: auto;
+  height: 80%;
+  padding-right: 1rem;
+}
+.contact-div text {
+  padding-top: 1rem;
+}
 
 #my-pic {
   border-radius: 5px;
@@ -114,13 +136,13 @@ ul {
   width: 100%;
   justify-content: center;
   align-items: center;
-  height: 3rem;
   font-family: 'Oswald', sans-serif;
+  font-size:x-large;
 }
 
 .nav-link {
   width: 20%;
-  height: 1.5rem;
+  height: 2rem;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
@@ -129,6 +151,7 @@ ul {
   display:inline-flex;
   padding: 5px;
   cursor: pointer;
+  font-size:x-large;
 }
 
 .nav-link:hover {

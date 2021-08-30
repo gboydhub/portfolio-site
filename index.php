@@ -8,6 +8,17 @@
     header('Location: ' . $redirect);
     exit();
   }
+
+  $PAGE = "main";
+  if(isset($_GET['page'])) {
+    $PAGE = htmlspecialchars($_GET['page']);
+  }
+
+  function selCheck($pname) {
+    if($_GET['page'] == $pname || ($_GET['page'] == "" && $pname == "home")) {
+      echo "underlined-box";
+    }
+  }
 ?>
 
 <html>
@@ -18,22 +29,18 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   </head>
   <body>
-    <center><font style="font-size:xx-large;"><p id="descriptor">Gary Boyd, Human</p></font></center>
+    <center><font style="font-size:xx-large;">Gary Boyd, Programmer</font></center>
     <div id="wrapper">
       <div class="nav-container">
         <div id="top-nav">
-          <div class="nav-link" name="home">Home</div>
-          <div class="nav-link" name="portfolio">Portfolio</div>
-          <div class="nav-link" name="resume">Resume</div>
-          <div class="nav-link" name="contact">Contact</div>
+          <div class="nav-link <?php selCheck("home"); ?>" name="home">Home</div>
+          <div class="nav-link <?php selCheck("portfolio"); ?>" name="portfolio">Portfolio</div>
+          <div class="nav-link <?php selCheck("resume"); ?>" name="resume">Résumé</div>
+          <div class="nav-link <?php selCheck("contact"); ?>" name="contact">Contact</div>
         </div>
       </div>
       <div id="content">
         <?php
-          $PAGE = "main";
-          if(isset($_GET['page'])) {
-            $PAGE = htmlspecialchars($_GET['page']);
-          }
           if(file_exists($PAGE . ".php")) {
             readfile($PAGE . ".php");
           }
