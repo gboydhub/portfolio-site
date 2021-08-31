@@ -106,23 +106,18 @@ ul {
   justify-content: center;
 }
 .contact-div {
-  width: 80%;
-  height: 4rem;
-  text-align: left;
+  width: 50%;
+  text-align: center;
   padding-top: 2rem;
   flex-direction:row;
   display: inline-flex;
-  font-size: large;
+  font-size: x-large;
   justify-content: center;
 }
 
 .contact-div img {
-  width: auto;
-  height: 80%;
-  padding-right: 1rem;
-}
-.contact-div text {
-  padding-top: 1rem;
+  width: 3rem;
+  height: auto;
 }
 
 #my-pic {
