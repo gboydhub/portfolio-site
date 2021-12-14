@@ -1,3 +1,17 @@
+<div class="story solid-border-btm"><div class="story-head"><a href="https://play.google.com/store/apps/details?id=com.eponickgames.dealertycoon">Dealer Tycoon</a></div>
+  <div class="pic-area"><img src="/img/dt1.jpg"> <img src="/img/dt2.jpg"></div>
+  <p>Android game based on classic windows game Drug Wars. It's an economic/tycoon game based in the world of black market drugs and smuggling.</p>
+  Features
+  <ul>
+    <li>Modern take on a cult classic game</li>
+    <li>Multiple Save Files</li>
+    <li>On android play store</li>
+    <li>12 Cities with different supplys and demands</li>
+    <li>Events, Police Searches, Heat, and Reputation</li>
+  </ul>
+  Still in early access/open testing while I flesh out the content and get feedback/fix reported issues.
+</div>
+
 <div class="story solid-border-btm"><div class="story-head"><a href="https://www.moddb.com/games/xira-genesis">Xira Genesis</a></div>
   <div class="pic-area"><a href=/img/xiragen.png><img src="/img/xiragen.png" width=340 height=220></a></div>
   <p><a href="https://github.com/gboydhub/XiraGenesis"><img src="/img/github.png" class="icon-img"></a>Was planned to be a 2D renovation of the old MUD MORPGs. Planned to have every server be a different MUD experience based on that servers communities and goals.</p>
@@ -8,7 +22,7 @@
     <li>World grows over time</li>
     <li>Old school SNES FF style side Battle/party system</li>
     <li>Project was worked on from 2012-2013, unfinished</li>
-    <li>Lots of time still went into this project, and is a good show of work</li>
+    <li>Lots of time went into this project, but its a bit outdated. </li>
   </ul>
   Implemented Features
   <ul>
